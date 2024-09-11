@@ -1,5 +1,5 @@
+import fs from 'node:fs';
 import * as cheerio from 'cheerio';
-import fs from 'fs';
 import { DownloaderHelper } from 'node-downloader-helper';
 import fetch from 'node-fetch';
 
