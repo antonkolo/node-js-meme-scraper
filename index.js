@@ -1,6 +1,18 @@
 import * as cheerio from 'cheerio';
+import fs from 'fs';
 import { DownloaderHelper } from 'node-downloader-helper';
 import fetch from 'node-fetch';
+
+// check if memes folder exists, create if not
+const folderExists = fs.existsSync('memes');
+console.log(folderExists);
+
+if (folderExists) {
+  console.log('memes folder already exists');
+} else {
+  fs.mkdirSync('memes');
+  console.log('memes folder created');
+}
 
 // fetch the html
 const memeWebsiteURL = 'https://memegen-link-examples-upleveled.netlify.app/';
