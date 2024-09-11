@@ -1,5 +1,5 @@
 *.log
-memes
+memes/*
 
 .eslintcache
 *.tsbuildinfo
