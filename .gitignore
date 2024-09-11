@@ -1,0 +1,6 @@
+*.log
+memes
+
+.eslintcache
+*.tsbuildinfo
+node_modules
