@@ -4,3 +4,4 @@ memes
 .eslintcache
 *.tsbuildinfo
 node_modules
+.DS_Store
